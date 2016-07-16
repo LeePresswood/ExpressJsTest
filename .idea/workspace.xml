@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c13675de-9ed7-4cf2-ae68-646dbc6a8375" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cleanup/TermCombiner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cleanup/StringCleanser.class" afterPath="$PROJECT_DIR$/target/classes/cleanup/StringCleanser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cleanup/StringCleanserTest.class" afterPath="$PROJECT_DIR$/target/test-classes/cleanup/StringCleanserTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cleanup/StringCleanser.java" afterPath="$PROJECT_DIR$/src/main/java/cleanup/StringCleanser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cleanup/TermCombiner.java" afterPath="$PROJECT_DIR$/src/main/java/cleanup/TermCombiner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cleanup/StringCleanserTest.java" afterPath="$PROJECT_DIR$/src/test/java/cleanup/StringCleanserTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java" afterPath="$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java" />
     </list>
     <ignored path="StringToAlgebra.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,14 +29,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="StringCleanser.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/cleanup/StringCleanser.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="501">
+                  <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+                  <folding>
+                    <element signature="e#132#133#0" expanded="true" />
+                    <element signature="e#205#206#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="TermCombiner.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/cleanup/TermCombiner.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
                   <folding>
-                    <element signature="e#140#141#0" expanded="true" />
-                    <element signature="e#167#168#0" expanded="true" />
+                    <element signature="e#131#132#0" expanded="true" />
+                    <element signature="e#204#205#0" expanded="true" />
+                    <element signature="e#259#260#0" expanded="true" />
+                    <element signature="e#288#289#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -51,8 +64,8 @@
           <file leaf-file-name="TermCombinerTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+                <state relative-caret-position="379">
+                  <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="38" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -90,8 +103,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cleanup/StringCleanser.java" />
         <option value="$PROJECT_DIR$/src/test/java/cleanup/StringCleanserTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cleanup/TermCombiner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java" />
       </list>
     </option>
   </component>
@@ -652,18 +665,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 55m 36s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 55m 43s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 56m 12s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 56m 22s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 57m 10s.xml">
       <configuration name="All in StringToAlgebra" configurationId="JUnit" />
     </history-entry>
@@ -680,6 +681,18 @@
       <configuration name="All in StringToAlgebra" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 24m 25s.xml">
+      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 28m 13s.xml">
+      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 59m 08s.xml">
+      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 59m 19s.xml">
+      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 59m 53s.xml">
       <configuration name="All in StringToAlgebra" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -704,7 +717,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936078" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15991472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24458875" sideWeight="0.8432836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -749,8 +762,6 @@
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -780,46 +791,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cleanup/StringCleanserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cleanup/StringCleanser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="501">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cleanup/StringCleanserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cleanup/TermCombiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cleanup/TermCombinerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="38" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

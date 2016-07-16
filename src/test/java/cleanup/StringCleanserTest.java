@@ -41,7 +41,7 @@ public class StringCleanserTest {
 
     @Test
     public void testThatNonMathPunctuationMarksAreRemoved(){
-        String stringToCleanse = "These Are Bad @#$%,<>.!?_\"\\";
+        String stringToCleanse = "These Are Bad @#$%,<>!?_\"\\";
         assertEquals("TheseAreBad", StringCleanser.cleanse(stringToCleanse));
     }
 

@@ -13,4 +13,28 @@ public class TermCombinerTest {
         String stringToCombine = null;
         assertEquals(null, TermCombiner.combine(stringToCombine));
     }
+
+    @Test
+    public void testThatEmptyStringReturnsNull(){
+        String stringToCombine = "";
+        assertEquals(null, TermCombiner.combine(stringToCombine));
+    }
+
+    @Test
+    public void testThatNumberReturnsNumber(){
+        String stringToCombine = "2";
+        assertEquals("2", TermCombiner.combine(stringToCombine));
+    }
+
+    @Test
+    public void testThatVariableReturnsVariable(){
+        String stringToCombine = "x";
+        assertEquals("x", TermCombiner.combine(stringToCombine));
+    }
+
+//    @Test
+//    public void testThatMultipliedVariablesReturnsSimplifiedVersionOfThatVariable(){
+//        String stringToCombine = "x*x";
+//        assertEquals("x^2", TermCombiner.combine(stringToCombine));
+//    }
 }
