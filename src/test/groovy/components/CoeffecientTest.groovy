@@ -103,7 +103,7 @@ class CoeffecientTest extends Specification {
             2    | 2    || 4
             -1   | 2    || 1
             -2   | 2    || 4
-    }|
+    }
 
     @Unroll
     def "toString for coefficient with value #val gives result #result"() {
@@ -122,5 +122,5 @@ class CoeffecientTest extends Specification {
             -1.5                     || "-1.5"
             Double.POSITIVE_INFINITY || "Infinity"
             Double.NEGATIVE_INFINITY || "-Infinity"
-    }|
+    }
 }
