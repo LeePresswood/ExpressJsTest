@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c13675de-9ed7-4cf2-ae68-646dbc6a8375" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/components/Coeffecient.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/components/Variable.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/components/CoeffecientTest.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/components/Term.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/components/Term.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StringToAlgebra.iml" afterPath="$PROJECT_DIR$/StringToAlgebra.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/groovy/components/Coeffecient.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/components/Coeffecient.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/components/CoeffecientTest.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/components/CoeffecientTest.groovy" />
     </list>
     <ignored path="StringToAlgebra.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +41,8 @@
       <file leaf-file-name="Coeffecient.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/components/Coeffecient.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <state relative-caret-position="374">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -51,9 +51,11 @@
       <file leaf-file-name="CoeffecientTest.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/components/CoeffecientTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="-530">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="e#20#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,11 +113,11 @@
         <option value="$PROJECT_DIR$/src/main/java/todo/TermCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/splitting/TermBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/splitting/Term.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Term.java" />
         <option value="$PROJECT_DIR$/src/main/java/components/Term.java" />
         <option value="$PROJECT_DIR$/src/test/java/components/TermTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/components/Term.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/groovy/components/Coeffecient.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/components/CoeffecientTest.groovy" />
       </list>
@@ -174,6 +176,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="StringToAlgebra" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -316,7 +322,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
@@ -336,71 +342,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in StringToAlgebra">
+  <component name="RunManager" selected="JUnit.CoeffecientTest">
     <configuration default="false" name="All in StringToAlgebra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="StringToAlgebra" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in StringToAlgebra (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="StringToAlgebra" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in StringToAlgebra (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="StringToAlgebra" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in StringToAlgebra (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="StringToAlgebra" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -430,6 +373,84 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoeffecientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringToAlgebra" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.CoeffecientTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoeffecientTest.adding values #val1 and #val2 creates a new coefficient with a value of #result" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringToAlgebra" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.CoeffecientTest" />
+      <option name="METHOD_NAME" value="adding values #val1 and #val2 creates a new coefficient with a value of #result" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoeffecientTest.dividing values #val1 and #val2 creates a new coefficient with a value of #result" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="components.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StringToAlgebra" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="components" />
+      <option name="MAIN_CLASS_NAME" value="components.CoeffecientTest" />
+      <option name="METHOD_NAME" value="dividing values #val1 and #val2 creates a new coefficient with a value of #result" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -694,18 +715,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (2)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (3)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (4)" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (4)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CoeffecientTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CoeffecientTest.adding values #val1 and #val2 creates a new coefficient with a value of #result" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CoeffecientTest.dividing values #val1 and #val2 creates a new coefficient with a value of #result" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (4)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (3)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (2)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CoeffecientTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CoeffecientTest.dividing values #val1 and #val2 creates a new coefficient with a value of #result" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CoeffecientTest.adding values #val1 and #val2 creates a new coefficient with a value of #result" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in StringToAlgebra (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -726,27 +747,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 57m 10s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 08h 57m 22s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 10m 48s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 10m 59s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 21m 55s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 24m 25s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 28m 13s.xml">
-      <configuration name="All in StringToAlgebra" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 59m 08s.xml">
       <configuration name="All in StringToAlgebra" configurationId="JUnit" />
     </history-entry>
@@ -755,6 +755,27 @@
     </history-entry>
     <history-entry file="All_in_StringToAlgebra - 2016.07.16 at 09h 59m 53s.xml">
       <configuration name="All in StringToAlgebra" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest - 2016.08.26 at 23h 01m 20s.xml">
+      <configuration name="CoeffecientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest - 2016.08.26 at 23h 03m 22s.xml">
+      <configuration name="CoeffecientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest - 2016.08.26 at 23h 03m 37s.xml">
+      <configuration name="CoeffecientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest_adding_values_#val1_and_#val2_creates_a_new_coefficient_with_a_value_of_#result - 2016.08.26 at 22h 56m 59s.xml">
+      <configuration name="CoeffecientTest.adding values #val1 and #val2 creates a new coefficient with a value of #result" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest_adding_values_#val1_and_#val2_creates_a_new_coefficient_with_a_value_of_#result - 2016.08.26 at 22h 57m 59s.xml">
+      <configuration name="CoeffecientTest.adding values #val1 and #val2 creates a new coefficient with a value of #result" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest_adding_values_#val1_and_#val2_creates_a_new_coefficient_with_a_value_of_#result - 2016.08.26 at 22h 58m 31s.xml">
+      <configuration name="CoeffecientTest.adding values #val1 and #val2 creates a new coefficient with a value of #result" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoeffecientTest_dividing_values_#val1_and_#val2_creates_a_new_coefficient_with_a_value_of_#result - 2016.08.26 at 23h 00m 49s.xml">
+      <configuration name="CoeffecientTest.dividing values #val1 and #val2 creates a new coefficient with a value of #result" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -772,11 +793,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13752665" sideWeight="0.5021322" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936078" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15991472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850778" sideWeight="0.4978678" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24458875" sideWeight="0.8432836" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -792,7 +814,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -964,16 +985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/components/Variable.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -990,19 +1001,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/components/Coeffecient.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="374">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/components/CoeffecientTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="-530">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#20#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,7 +1087,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1072,7 +1094,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
+          <last-edited>Maven: org.codehaus.groovy:groovy-all:2.4.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
