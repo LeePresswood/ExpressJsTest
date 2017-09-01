@@ -38,9 +38,36 @@ app.use(bodyParser.urlencoded({extended : false}));
 // app.get('/', function(req, res){
 //     res.json(people);
 // });
+var users = [
+    {
+        id: 1,
+        first_name: 'John',
+        last_name: 'Doe',
+        email: 'johndoe@gmail.com'
+    },
+    {
+        id: 2,
+        first_name: 'Bob',
+        last_name: 'Smith',
+        email: 'bobsmith@gmail.com'
+    },
+    {
+        id: 2,
+        first_name: 'Jill',
+        last_name: 'Jackson',
+        email: 'jilljackson@gmail.com'
+    }
+];
 
 app.get('/', function(req, res){
-    res.render('index');
+    res.render('index', {
+        title: 'Customers',
+        users: users
+    });
+});
+
+app.post('/users/add', function(req, res){
+    console.log('Form Submitted');
 });
 
 app.listen(3000, function(){
