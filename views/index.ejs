@@ -1,5 +1,12 @@
 <% include partials/header.ejs %>
 <h1>Add Custmer</h1>
+<% if(errors){ %>
+<ul>
+    <% errors.forEach(function(error){ %>
+    <li><%= error %></li>
+    <% }) %>
+</ul>
+<% } %>
 <form action="/users/add" method="post">
     <label>First Name</label>
     <br/>
